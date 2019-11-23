@@ -4,12 +4,12 @@
     "connector": "memory"
   },
   "mysql": {
-    "host": "process.env.host",
+    "host": "process.env.DB_HOST",
     "port": "3306",
-    "database": "process.env.db",
-    "password": "process.env.pass",
+    "database": "process.env.DB_NAME",
+    "password": "process.env.DB_PASS",
     "name": "mysql",
-    "user": "process.env.user",
+    "user": "process.env.DB_USER",
     "connector": "mysql"
   }
 }
