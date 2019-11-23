@@ -1,0 +1,15 @@
+  {
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysql": {
+    "host": "process.env.host",
+    "port": 3306,
+    "database": "process.env.db",
+    "password": "process.env.pass",
+    "name": "mysql",
+    "user": "process.env.user",
+    "connector": "mysql"
+  }
+}
