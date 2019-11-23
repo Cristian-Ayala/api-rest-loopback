@@ -6,6 +6,6 @@ module.exports = {
     "password": process.env.DB_PASS,
     "name": "mysql",
     "user": process.env.DB_USER,
-    "connector": "mysql"
+    "connector": "mysql",
   }
 }
