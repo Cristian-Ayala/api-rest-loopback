@@ -5,7 +5,7 @@
   },
   "mysql": {
     "host": "process.env.host",
-    "port": "process.env.PORT",
+    "port": "3306",
     "database": "process.env.db",
     "password": "process.env.pass",
     "name": "mysql",
