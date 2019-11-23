@@ -1,8 +1,4 @@
 module.exports = {
-  "db": {
-    "name": "db",
-    "connector": "memory"
-  },
   "mysql": {
     "host": process.env.DB_HOST,
     "port": "3306",
